@@ -1,0 +1,17 @@
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\bin\Debug\netstandard2.0\InfotoolsMobile.deps.json
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\bin\Debug\netstandard2.0\InfotoolsMobile.dll
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\bin\Debug\netstandard2.0\ref\InfotoolsMobile.dll
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\bin\Debug\netstandard2.0\InfotoolsMobile.pdb
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.csproj.AssemblyReference.cache
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.AssemblyInfoInputs.cache
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.AssemblyInfo.cs
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.csproj.CoreCompileInputs.cache
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.dll
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\ref\InfotoolsMobile.dll
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\InfotoolsMobile.pdb
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\AjoutRdv.xaml.g.cs
+D:\Fichiers\BTS\InfotoolsMobile\InfotoolsMobile\obj\Debug\netstandard2.0\ModifRdv.xaml.g.cs

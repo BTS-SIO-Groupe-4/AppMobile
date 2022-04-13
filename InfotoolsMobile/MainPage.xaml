@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InfotoolsMobile.MainPage"
+             Title="Infotools - Liste des rendez-vous">
+
+    <StackLayout>
+        <Grid RowSpacing="0" ColumnSpacing="0" Margin="0,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="0.4"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Text="Date rendez-vous" />
+            <Label Grid.Column="1" Text="Employé affecté" />
+            <Label Grid.Column="2" Text="Client" />
+            <BoxView Grid.Row="1" BackgroundColor="#3D3D3D"/>
+            <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="#3D3D3D"/>
+            <BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="#3D3D3D"/>
+        </Grid>
+
+        <ListView x:Name="lvwRdv" ItemsSource="{Binding RendezVous}" SeparatorColor="#3D3D3D" RowHeight="70" Margin="0,0,0,20">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid RowSpacing="0" ColumnSpacing="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" Text="{Binding DateRdv, StringFormat='{}{0:dd/MM/yyyy}'}" VerticalOptions="Center"/>
+
+                            <StackLayout x:Name="EmpNonNull" Grid.Column="1">
+                                <Label Text="{Binding Employe.Nom}"/>
+                                <Label Text="{Binding Employe.Prenom}"/>
+                            </StackLayout>
+
+                            <StackLayout Grid.Column="2">
+                                <Label Text="{Binding Client.Nom}" />
+                                <Label Text="{Binding Client.Prenom}"/>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>   
+        </ListView>
+
+
+        <Button
+                    Clicked="OnAdd"
+                    Text="Ajouter" 
+                    BackgroundColor="LightGreen"/>
+        <Button
+                    Clicked="OnUpdate"
+                    Text="Modifier" 
+                    BackgroundColor="Orange"/>
+        <Button
+                    Clicked="OnDelete"
+                    Text="Supprimer" 
+                    BackgroundColor="Salmon"/>
+    </StackLayout>
+
+</ContentPage>

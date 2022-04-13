@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InfotoolsMobile.ModifRdv"
+             Title="Infotools - Modifier un rendez vous">
+    <ContentPage.Content>
+        <StackLayout>
+            <DatePicker x:Name="DateRdv"/>
+
+            <Picker x:Name="ClientPiker"
+                Title="Selectionnez un client"
+                    ItemsSource="{Binding Clients}"
+                    ItemDisplayBinding="{Binding String}"/>
+
+            <Picker x:Name="EmployePiker"
+                    Title="Selectionnez un employé"
+                    ItemsSource="{Binding Employes}"
+                    ItemDisplayBinding="{Binding String}"/>
+
+            <Button
+                    Clicked="OnUpdate"
+                    Text="Modifier" 
+                    BackgroundColor="LightGreen"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
